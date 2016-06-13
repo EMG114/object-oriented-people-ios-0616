@@ -80,7 +80,7 @@
     // 3. construct new string
     NSString *celebrationSentence = [NSString stringWithFormat: @"HAPPY %lu%@ BIRTHDAY, %@!!!", self.ageInYears, ordinal,self.name];
 //}
-//NSLog (@"%@", ordinalForInteger);
+NSLog (@"%@", [celebrationSentence uppercaseString]);
 
     return [celebrationSentence uppercaseString];
 
